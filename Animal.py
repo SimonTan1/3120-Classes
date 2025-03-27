@@ -6,3 +6,10 @@ class Animal:
     def talk(self):
         print("hi")
 
+    def gender(self,gen):
+        self.gender = gen
+        print("gender is", self.gender)
+
+    def diet(self, food):
+        self.diet = food
+        print("animal eats", self.diet)
